@@ -10,4 +10,3 @@ for digit1 in range(0, 10):
         else:
             # Print the combination with a trailing comma.
             print("{}{}".format(digit1, digit2), end=", ")
-

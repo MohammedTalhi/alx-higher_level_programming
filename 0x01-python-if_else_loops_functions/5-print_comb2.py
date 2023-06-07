@@ -8,4 +8,3 @@ for number in range(0, 100):
     else:
         # Print the number with leading zeros and a trailing comma.
         print("{:02}".format(number), end=", ")
-

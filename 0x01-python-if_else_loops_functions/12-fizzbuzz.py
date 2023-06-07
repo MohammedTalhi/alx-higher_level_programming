@@ -21,4 +21,3 @@ def fizzbuzz():
         else:
             # Not a multiple of 3 or 5, print the number itself.
             print("{} ".format(number), end="")
-

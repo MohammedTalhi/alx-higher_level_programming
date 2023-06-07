@@ -7,4 +7,3 @@
 for ascii_value in range(97, 123):
     # Convert the ASCII value to its corresponding character and print it
     print("{}".format(chr(ascii_value)), end="")
-

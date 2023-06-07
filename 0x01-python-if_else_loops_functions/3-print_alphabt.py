@@ -7,4 +7,3 @@ for ascii_value in range(97, 123):
     # Check if the current letter is not 'q' and not 'e'
     if current_letter != 'q' and current_letter != 'e':
         print("{}".format(current_letter), end="")
-
