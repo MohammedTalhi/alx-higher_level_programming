@@ -1,35 +1,16 @@
 #!/usr/bin/python3
-
 def to_subtract(list_num):
-    """
-    Calculate the difference between the maximum value in a list and the sum of the other values.
-
-    Args:
-        list_num (list): The list of numbers.
-
-    Returns:
-        The difference between the maximum value and the sum of the other values in the list.
-    """
-    to_subtract_value = 0
-    max_value = max(list_num)
+    to_sub = 0
+    max_list = max(list_num)
 
     for n in list_num:
-        if max_value > n:
-            to_subtract_value += n
+        if max_list > n:
+            to_sub += n
 
-    return max_value - to_subtract_value
+    return (max_list - to_sub)
 
 
 def roman_to_int(roman_string):
-    """
-    Convert a Roman numeral to an integer.
-
-    Args:
-        roman_string (str): The Roman numeral string.
-
-    Returns:
-        int: The converted integer value. Returns 0 if the input is empty or not a string.
-    """
     if not roman_string:
         return 0
 
@@ -56,4 +37,4 @@ def roman_to_int(roman_string):
 
     num += to_subtract(list_num)
 
-    return num
+    return (num)
